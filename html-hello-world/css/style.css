@@ -1,0 +1,40 @@
+header {
+  background-color: lightblue;
+  padding: 10px; /* 余白 */
+  text-align: center; /* 中央揃え */
+}
+
+footer {
+  background-color: lightcoral;
+  padding: 10px; /* 余白 */
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex; /* 横並び */
+}
+
+.main {
+  background-color: lightyellow;
+  width: 70%;
+  padding: 10px; /* 余白 */
+}
+
+.side {
+  background-color: lightgreen;
+  width: 30%;
+  padding: 10px; /* 余白 */
+}
+
+.title {
+  color: red;
+  font-weight: bold;
+}
+
+.content {
+  background-color: lightgray;
+}
